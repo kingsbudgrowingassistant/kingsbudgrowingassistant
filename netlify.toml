@@ -7,7 +7,8 @@
   publish = ".next"
 
 [build.environment]
-  NODE_VERSION = "22"
+  NODE_VERSION = "https://zkfwflwdzfuepurzlljc.supabase.co
+  sb_publishable_UuwftSQ_svmbUcKAO42wOw_hDK2vSDw"
 
 # The @netlify/plugin-nextjs handles Next.js SSR/SSG automatically.
 # It's installed via package.json devDependencies.
