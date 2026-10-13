@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="65%">
+      <stop offset="0%" stop-color="#22c55e"/>
+      <stop offset="100%" stop-color="#15803d"/>
+    </radialGradient>
+    <linearGradient id="leaf" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#cbd5e1"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <g fill="url(#leaf)" stroke="#0f172a" stroke-width="1.5" stroke-linejoin="round">
+    
+  <!-- Center (top) leaflet — largest, most pointed -->
+  <path d="
+    M 256 70
+    C 268 95 274 130 274 175
+    L 282 175 L 278 200 L 290 195 L 282 220 L 296 218 L 286 245
+    L 300 246 L 286 270 L 298 275 L 280 295 L 290 305 L 274 320
+    L 280 340 L 266 350
+    L 256 360
+    L 246 350 L 260 340 L 246 320 L 230 305 L 240 295 L 222 275
+    L 236 270 L 222 246 L 236 245 L 226 220 L 240 218 L 230 195
+    L 242 200 L 238 175 L 246 175
+    C 246 130 244 95 256 70 Z
+  "/>
+
+  <!-- Upper side leaflets (pair 1, just below center) -->
+  <path d="
+    M 256 195
+    C 230 180 200 170 165 175
+    L 145 165 L 150 180 L 130 175 L 140 195 L 120 195
+    L 135 215 L 115 220 L 140 230 L 125 245 L 155 250
+    L 145 265 L 175 260 L 165 275 L 200 265 L 195 280
+    L 230 265 L 256 270 Z
+  " transform="scale(-1,1) translate(-512,0)"/>
+  <path d="
+    M 256 195
+    C 230 180 200 170 165 175
+    L 145 165 L 150 180 L 130 175 L 140 195 L 120 195
+    L 135 215 L 115 220 L 140 230 L 125 245 L 155 250
+    L 145 265 L 175 260 L 165 275 L 200 265 L 195 280
+    L 230 265 L 256 270 Z
+  "/>
+
+  <!-- Middle side leaflets (pair 2) -->
+  <path d="
+    M 256 245
+    C 220 240 180 245 140 260
+    L 115 258 L 125 275 L 105 280 L 125 295 L 110 305
+    L 140 315 L 125 330 L 155 335 L 145 350 L 180 350
+    L 175 365 L 215 360 L 256 370 Z
+  " transform="scale(-1,1) translate(-512,0)"/>
+  <path d="
+    M 256 245
+    C 220 240 180 245 140 260
+    L 115 258 L 125 275 L 105 280 L 125 295 L 110 305
+    L 140 315 L 125 330 L 155 335 L 145 350 L 180 350
+    L 175 365 L 215 360 L 256 370 Z
+  "/>
+
+  <!-- Lower side leaflets (pair 3, smallest, near stem) -->
+  <path d="
+    M 256 305
+    C 225 315 195 330 165 355
+    L 145 360 L 155 375 L 140 380 L 160 395 L 150 410
+    L 175 415 L 165 430 L 195 425 L 256 435 Z
+  " transform="scale(-1,1) translate(-512,0)"/>
+  <path d="
+    M 256 305
+    C 225 315 195 330 165 355
+    L 145 360 L 155 375 L 140 380 L 160 395 L 150 410
+    L 175 415 L 165 430 L 195 425 L 256 435 Z
+  "/>
+
+  <!-- Stem -->
+  <path d="M 246 360 L 246 460 Q 246 470 256 470 Q 266 470 266 460 L 266 360 Z"/>
+
+  </g>
+  <!-- Vein highlight -->
+  <g stroke="rgba(34,197,94,0.55)" stroke-width="2.5" fill="none" stroke-linecap="round">
+    <path d="M 256 75 L 256 360"/>
+    <path d="M 256 195 L 130 200"/>
+    <path d="M 256 195 L 382 200"/>
+    <path d="M 256 250 L 110 270"/>
+    <path d="M 256 250 L 402 270"/>
+    <path d="M 256 310 L 145 365"/>
+    <path d="M 256 310 L 367 365"/>
+  </g>
+</svg>
